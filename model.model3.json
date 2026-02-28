@@ -1,0 +1,43 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "model.moc3",
+		"Textures": [
+			"model.4096/texture_00.png"
+		],
+		"Pose": "model.pose3.json",
+		"DisplayInfo": "model.cdi3.json",
+		"Motions": {
+			"Tap": [
+				{
+					"File": "Scene1.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitAreaBody2",
+			"Name": "Body2"
+		},
+		{
+			"Id": "HitAreaBody1",
+			"Name": "Body"
+		}
+	]
+}
